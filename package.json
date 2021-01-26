@@ -35,6 +35,7 @@
     "lint": "eslint -c .eslintrc.js --ext .ts projects",
     "prepublishOnly": "publish-please guard",
     "prettier": "prettier --single-quote --write --parser typescript \"projects/lib/src/**/*.ts\"",
+    "publish-please": "publish-please",
     "test": "karma start"
   },
   "repository": {

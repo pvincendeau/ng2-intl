@@ -16,7 +16,11 @@ export { FormattedHtmlMessageComponent } from './lib/components/html-message';
 // Services
 export { FormatService } from './lib/services/format.service';
 export { IntlStaticLoader, IntlLoader } from './lib/services/intl.loader';
-export { IntlService, LangChangeEvent, MissingTranslationHandler } from './lib/services/intl.service';
+export {
+  IntlService,
+  LangChangeEvent,
+  MissingTranslationHandler,
+} from './lib/services/intl.service';
 
 export * from './lib/locale-data-registry';
 
