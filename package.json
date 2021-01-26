@@ -1,5 +1,5 @@
 {
-  "name": "ng2-intl",
+  "name": "@sword/ng2-intl",
   "version": "2.0.0-rc.3",
   "private": true,
   "description": "Internationalize Angular2 apps. This library provides Angular2 components, pipe and an API to format dates, numbers, and strings, including pluralization and handling translations.",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eyolas/ng2-intl.git"
+    "url": "git+https://github.com/pvincendeau/ng2-intl.git"
   },
   "dependencies": {
     "@types/lodash": "^4.14.167",
@@ -113,5 +113,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "registry": "https://keolis.pkgs.visualstudio.com/_packaging/sword-dependencies/npm/registry/"
   }
 }
